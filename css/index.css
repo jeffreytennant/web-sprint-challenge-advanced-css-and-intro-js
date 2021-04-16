@@ -19,6 +19,14 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+*{
+    box-sizing:border-box;
+    max-width:100%;
+	padding:0;
+	margin:0;
+	border:1px solid red;
+
+}
 /*GENERAL STYLES*/
 html{
     font-size:62.5%;
@@ -133,4 +141,17 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+/* Responsive Styles */
+/* Phone style*/
+@media(max-width:500px){
+    .artists-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin
+    }
+    .artist{
+        width:80%
+    }
 }
