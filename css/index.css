@@ -137,11 +137,11 @@ button:hover{
 }
 
 .artist{
-    width:40%;
+    width: 80%;
     text-align:center;
 }
 .artist img{
-    width:100%;
+    max-width:100%
 }
 
 /* Responsive Styles */
@@ -157,14 +157,31 @@ button:hover{
     }
     nav span{
         border-left:1px solid #626262;
-        
+        margin: 7% 0;
     }
     h1{
         font-size:4rem;
     }
-    
     .title-container div{
         width: 100%;
     }
-   
+    .artists-container{
+        flex-flow: column wrap;
+        flex-wrap:wrap;
+        justify-content: center;
+        width:60%;
+    }
+    .artist{
+        width:100%;
+        font-size:1rem;
+        
+    }
+    .artist img{
+        
+        width: 100%;
+  height: auto;
+      
+    
+    }
+    
 }
