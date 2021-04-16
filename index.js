@@ -293,7 +293,7 @@ function addArtist(data){
       years: '1987 - current day',
       genre: 'Web Design',
       nationality: 'American',
-      bio: 'Married, in a band, suffereing through javascript',
+      bio: 'Married, in a band, suffering through javascript',
     }
     data.push(newPainter);
     return data
@@ -310,7 +310,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(list){
   let manyPaintings = [];
-  for (let i = 0; i <list.length; i++){
+  for (let i = 0; i < list.length; i++){
     if (list[i].paintings > 100){
       manyPaintings.push(list[i].name); 
     }

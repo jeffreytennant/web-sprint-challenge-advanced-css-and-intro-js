@@ -173,15 +173,44 @@ button:hover{
     }
     .artist{
         width:100%;
-        font-size:1rem;
-        
+        font-size:1rem;  
     }
     .artist img{
         
         width: 100%;
-  height: auto;
-      
+        height: auto;
+    }
+}
+@media(max-width:1000px){
+    a{
+        font-size:1.5rem;
+        font-weight:600;
+    }
+    nav a{
+        padding:5%;
     
     }
-    
-}
+    nav span{
+        border-left:1px solid #626262;
+        margin: 7% 0;
+    }
+    h1{
+        font-size:4rem;
+    }
+    .title-container div{
+        width: 100%;
+    }
+    .artists-container{
+        flex-flow: column wrap;
+        flex-wrap:wrap;
+        justify-content: center;
+        width:60%;
+    }
+    .artist{
+        width:100%;
+        font-size:1rem;  
+    }
+    .artist img{
+        width: 100%;
+        height: auto;
+    }
